@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="max-w-5xl mx-auto text-center">
       <motion.h1
-        className="text-8xl md:text-6xl font-bold mb-6"
+        className="title"
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0, animationDuration: 2}}
         transition={{ type: "spring" }}
