@@ -7,6 +7,7 @@ export default [
     route("about", "./pages/About.jsx"),
     route("authors", "./pages/Authors.jsx"),
     route("start", "./pages/Start.jsx"),
+    route("reflection", "./pages/Reflection.jsx"),
     // Author Routes
     ...authors.map(author => route("authors/:id", "./pages/AuthorPage.jsx", { id: author.id }))
   ]),
