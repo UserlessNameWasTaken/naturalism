@@ -1,20 +1,5 @@
-const authors = [
-  {
-    name: "Emile Zola",
-    description:
-      "A leading naturalist novelist whose work emphasized environment, heredity, and social conditions.",
-  },
-  {
-    name: "Stephen Crane",
-    description:
-      "An American writer known for depicting conflict, survival, and human limitation with stark realism.",
-  },
-  {
-    name: "Frank Norris",
-    description:
-      "A novelist who brought naturalist ideas into American fiction through stories of instinct and social pressure.",
-  },
-];
+import Card from "../components/Card";
+import { authors } from "../data/authors";
 
 function Authors() {
   return (
@@ -28,17 +13,11 @@ function Authors() {
 
       <div className="grid gap-4 md:grid-cols-3">
         {authors.map((author) => (
-          <article
-            key={author.name}
-            className="rounded-2xl border border-zinc-800 bg-zinc-900 p-6"
-          >
-            <h2 className="text-2xl font-semibold">{author.name}</h2>
-            <p className="mt-3 text-zinc-400 leading-7">{author.description}</p>
-          </article>
+          Card({title: author.name, description: author.description, id: author.id, lifespan: author.lifespan})
         ))}
       </div>
     </section>
-  );
+  )
 }
 
 export default Authors;
