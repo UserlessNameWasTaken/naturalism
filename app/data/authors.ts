@@ -78,8 +78,8 @@ export const authors = [
     description: authorTexts["../assets/tx/jacklondon.txt"],
     works: ["The Call of the Wild", "White Fang"],
     work_descriptions: {
-      "The Call of the Wild" : "short description here", 
-      "White Fang": "short description here",
+      "The Call of the Wild" : "A story about a sled dog learning to survive through embracing his insticts.", 
+      "White Fang": "A story about a wolfdog's journey from the wilderness to domestication, to dogrings and eventually saving his family.",
     },
     work_links: {
       "The Call of the Wild" : "https://ia801609.us.archive.org/34/items/callofthewild00lond/callofthewild00lond.pdf", 
@@ -93,8 +93,8 @@ export const authors = [
     description: authorTexts["../assets/tx/edithwharton.txt"],
     works: ["The House of Mirth", "Ethan Frome"],
     work_descriptions: {
-      "The House of Mirth": "short description here",
-      "Ethan Frome": "short description here",
+      "The House of Mirth": "A novel about the downfall of a woman in Gilded Age New York, who couldn't find a source of income to ",
+      "Ethan Frome": "A novella about a farmer who is trapped in a relationship with a sick woman, where feelings aren't shared.",
     },
     work_links: {
       "The House of Mirth": "https://dn721900.ca.archive.org/0/items/houseofmirth01whar/houseofmirth01whar.pdf",
@@ -108,7 +108,7 @@ export const authors = [
     description: authorTexts["../assets/tx/hamlingarland.txt"],
     works: ["Main-Travelled Roads"],
     work_descriptions: {
-      "Main Travelled Roads": "short description here",
+      "Main Travelled Roads": "A collection of short stories that illustrate the struggles of 19th century farmers in Midwestern America.",
     },
     work_links: {
       "Main Travelled Roads": "https://archive.org/details/dli.ernet.235262",
@@ -121,7 +121,7 @@ export const authors = [
     description: authorTexts["../assets/tx/katechopin.txt"],
     works: ["The Awakening"],
     work_descriptions: {
-      "The Awakening": "short description here", 
+      "The Awakening": "A feminist novel about a woman, Edna Pontelier, who defies traditional social norms in 19th Century Louisiana.", 
     },
     work_links: {
       "The Awakening": "https://archive.org/details/awakening0000chop_v1b6", 
@@ -134,8 +134,8 @@ export const authors = [
     description: authorTexts["../assets/tx/henryjames.txt"],
     works: ["The Portrait of a Lady", "The Turn of the Screw"],
     work_descriptions: {
-      "The Portrait of a Lady": "short description here",
-      "The Turn of the Screw": "short description here",
+      "The Portrait of a Lady": "A story about a young woman travelling to Europe and marrying a man, only for that marriage to lead to misery and loss of freedom.",
+      "The Turn of the Screw": "A novella about a governess who tries to save children she believes are haunted by previous employess of an estate.",
     },
     work_links: {
       "The Portrait of a Lady": "https://ia801602.us.archive.org/18/items/portraitofalady01jameuoft/portraitofalady01jameuoft.pdf",
@@ -149,7 +149,7 @@ export const authors = [
     description: authorTexts["../assets/tx/marktwain.txt"],
     works: ["Adventures of Huckleberry Finn"],
     work_descriptions: {
-      "Adventures of Huckleberry Finn": "short description here",
+      "Adventures of Huckleberry Finn": "A classic novel about a young boy, Huckleberry Finn, and an escaped slave named Jim following the Mississipi River",
     },
     work_links: {
       "Adventures of Huckleberry Finn": "https://archive.org/details/adventuresofhuck00twai",
@@ -162,7 +162,7 @@ export const authors = [
     description: authorTexts["../assets/tx/uptonsinclair.txt"],
     works: ["The Jungle"],
     work_descriptions: {
-      "The Jungle": "short description here"
+      "The Jungle": "A novel about the terrible working conditions and poverty issues for Lithuanian immigrants in the Chicago meatpacking business. "
     },
     work_links: {
       "The Jungle": "https://archive.org/details/jungle01sinc"
@@ -175,7 +175,7 @@ export const authors = [
     description: authorTexts["../assets/tx/ellenglasgow.txt"],
     works: ["Barren Ground"],
     work_descriptions: {
-      "Barren Ground": "short description here",
+      "Barren Ground": "A novel about the life of an abandoned pregnant woman in rural Virginia, turning her 'barren ground' into a successful farm.",
     },
     work_links: {
       "Barren Ground": "https://archive.org/details/in.ernet.dli.2015.76258/2015.76258.Barren-Ground",
@@ -188,8 +188,8 @@ export const authors = [
     description: authorTexts["../assets/tx/johnsteinbeck.txt"],
     works: ["The Grapes of Wrath, Of Mice and Men"],
     work_descriptions: {
-      "The Grapes of Wrath": "short description here",
-      "Of Mice and Men": "short description here",
+      "The Grapes of Wrath": "A story about a family who, forced out of their original home, migrated to California for work, facing poverty, loss, and other dangers.",
+      "Of Mice and Men": "A novella about two ranch workers, one with an intellectual disability and extreme strength, and their journey.",
     },
     work_links: {
       "The Grapes of Wrath": "https://ia801802.us.archive.org/13/items/english-collections-1/Grapes%20of%20Wrath%2C%20The%20-%20John%20Steinbeck.pdf",
@@ -203,7 +203,7 @@ export const authors = [
     description: authorTexts["../assets/tx/richardwright.txt"],
     works: ["Native Son"],
     work_descriptions: {
-      "Native Son": "short description here",
+      "Native Son": "A novel about the tragic situation of Bigger Thomas, a young black man in 1930s Chicago, and the racist and destitute environment.",
     },
     work_links: {
       "Native Son": "https://archive.org/details/in.ernet.dli.2015.149739",
